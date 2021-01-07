@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+import os
+
+while True:
+    i = input("--> ")
+    if len(i) == True:
+        print(os.system(f"trans en:ja {i}"))
+    elif len(i) == False:
+        #print("FUCK THE POLICE")
+        i = input("--> ")
+    continue
